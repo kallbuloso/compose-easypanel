@@ -7,7 +7,7 @@ x-shared-env: &shared-api-worker-env
   # Log dateformat
   LOG_DATEFORMAT: ${LOG_DATEFORMAT:-%Y-%m-%d %H:%M:%S}
   # Log Timezone
-  LOG_TZ: ${LOG_TZ:-UTC}
+  LOG_TZ: ${LOG_TZ:-America/Sao_Paulo}
   DEBUG: ${DEBUG:-false}
   FLASK_DEBUG: ${FLASK_DEBUG:-false}
   SECRET_KEY: ${SECRET_KEY:-sk-9f73s3ljTXVcMT3Blb3ljTqtsKiGHXVcMT3BlbkFJLK7U}
